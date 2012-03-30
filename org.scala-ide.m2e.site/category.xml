@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Maven Integration for Scala IDE">Maven Integration for Scala IDE</description>
+   <feature url="features/org.scala-ide.m2e.feature_0.1.0.qualifier.jar" id="org.scala-ide.m2e.feature" version="0.1.0.qualifier">
+     <category name="scala-m2e"/>
+   </feature>
+   <category-def name="scala-m2e" label="Maven Integration for Scala IDE"/>
+</site>

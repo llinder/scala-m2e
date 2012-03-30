@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.m2e.core.projectConfigurators">
+         <!-- priority="98" generic="false" -->
+      <configurator
+            class="org.scala.ide.m2e.scala.ScalaProjectConfigurator"
+            id="org.scala-ide.m2e.scala"
+            name="scala"
+            >
+      </configurator>
+   </extension>
+   <!-- marker extension point, mappings read from ./lifecycle-mapping-metadata.xml file -->
+   <extension
+         point="org.eclipse.m2e.core.lifecycleMappingMetadataSource">
+   </extension>   
+   
+   <extension point="org.eclipse.m2e.core.archetypeCatalogs">
+      <remote description="Scala-tools.org/releases Catalog" url="http://nexus.scala-tools.org/content/repositories/releases/"/>
+      <remote description="Scala-tools.org/snapshots Catalog" url="http://nexus.scala-tools.org/content/repositories/snapshots/"/>
+   </extension>
+</plugin>

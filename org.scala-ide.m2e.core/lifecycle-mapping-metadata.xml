@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lifecycleMappingMetadata>
+
+	<pluginExecutions>
+		<pluginExecution>
+			<pluginExecutionFilter>
+				<groupId>org.scala-tools</groupId>
+				<artifactId>maven-scala-plugin</artifactId>
+				<goals>
+					<goal>compile</goal>
+					<goal>testCompile</goal>
+				</goals>
+				<versionRange>[2.0,)</versionRange>
+			</pluginExecutionFilter>
+			<action>
+				<configurator>
+					<id>org.scala-ide.m2e.scala</id>
+				</configurator>
+			</action>
+		</pluginExecution>
+		<pluginExecution>
+			<pluginExecutionFilter>
+				<groupId>org.scala-tools</groupId>
+				<artifactId>maven-scala-plugin</artifactId>
+				<goals>
+					<goal>add-source</goal>
+					<goal>doc</goal>
+					<goal>genjson</goal>
+					<goal>run</goal>
+					<goal>script</goal>
+				</goals>
+				<versionRange>[2.0,)</versionRange>
+			</pluginExecutionFilter>
+			<action>
+				<execute />
+			</action>
+		</pluginExecution>
+		<pluginExecution>
+			<pluginExecutionFilter>
+				<groupId>org.scala-tools</groupId>
+				<artifactId>maven-scala-plugin</artifactId>
+				<goals>
+					<goal>console</goal>
+					<goal>cc</goal>
+					<goal>cctest</goal>
+					<goal>help</goal>
+				</goals>
+				<versionRange>[2.0,)</versionRange>
+			</pluginExecutionFilter>
+			<action>
+				<ignore />
+			</action>
+		</pluginExecution>
+	</pluginExecutions>
+</lifecycleMappingMetadata>
