@@ -13,6 +13,7 @@
 	<module>org.scala-ide.m2e.site</module>
 	<module>org.scala-ide.m2e.feature</module>
 	<module>org.scala-ide.m2e.core</module>
+	<module>org.scala-ide.m2e.tp</module>
   </modules>
 
 </project>

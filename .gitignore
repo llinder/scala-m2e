@@ -1,3 +1,5 @@
+.cache
+.metadata/
 .project
 .settings/
 target/

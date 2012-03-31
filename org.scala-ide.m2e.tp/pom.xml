@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.scala-ide.m2e</groupId>
+		<artifactId>org.scala-ide.m2e.parent</artifactId>
+		<version>0.1.0-SNAPSHOT</version>
+		<relativePath>../org.scala-ide.m2e.parent/pom.xml</relativePath>
+	</parent>
+
+	<artifactId>org.scala-ide.m2e.tp</artifactId>
+
+	<packaging>pom</packaging>
+	<name>Maven Integration for Scala IDE Target Platforms</name>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<version>1.7</version>
+				<executions>
+					<execution>
+						<id>attach-artifacts</id>
+						<phase>package</phase>
+						<goals>
+							<goal>attach-artifact</goal>
+						</goals>
+						<configuration>
+							<artifacts>
+								<artifact>
+									<file>helios-scala-releases-29.target</file>
+									<type>target</type>
+									<classifier>helios-scala-releases-29</classifier>
+								</artifact>
+							</artifacts>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
