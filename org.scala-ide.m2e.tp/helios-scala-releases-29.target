@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.6"?>
-
-<target name="helios-scala-releases-29" sequenceNumber="3">
+<?pde version="3.6"?><target name="helios-scala-releases-29" sequenceNumber="5">
 <locations>
-<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.m2e.feature.feature.group" version="1.0.100.20110804-1717"/>
-<unit id="org.eclipse.m2e.logback.feature.feature.group" version="1.0.100.20110804-1717"/>
-<repository location="http://download.eclipse.org/technology/m2e/releases"/>
-</location>
 <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.epp.package.java.feature.feature.group" version="1.3.2.20110301-1807"/>
 <repository location="http://download.eclipse.org/releases/helios/"/>
 </location>
 <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.scala-ide.sdt.weaving.feature.feature.group" version="2.0.0.v-2_09-201112200102-82421c5"/>
-<unit id="org.scala-ide.sdt.feature.feature.group" version="2.0.0.v-2_09-201112200102-82421c5"/>
-<unit id="org.scala-ide.sdt.source.feature.feature.group" version="2.0.0.v-2_09-201112200102-82421c5"/>
+<unit id="org.scala-ide.sdt.feature.feature.group" version="2.0.1.v-2_09-201204232213-dae5cd4"/>
 <repository location="http://download.scala-ide.org/releases-29/stable/site"/>
+</location>
+<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.m2e.feature.feature.group" version="1.0.100.20110804-1717"/>
+<repository location="http://download.eclipse.org/technology/m2e/releases"/>
 </location>
 </locations>
 </target>
