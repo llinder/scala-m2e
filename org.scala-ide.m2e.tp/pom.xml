@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.scala-ide.m2e</groupId>
 		<artifactId>org.scala-ide.m2e.parent</artifactId>
-		<version>0.1.0-SNAPSHOT</version>
+		<version>0.1.1-SNAPSHOT</version>
 		<relativePath>../org.scala-ide.m2e.parent/pom.xml</relativePath>
 	</parent>
 
@@ -32,9 +32,9 @@
 						<configuration>
 							<artifacts>
 								<artifact>
-									<file>helios-scala-releases-29.target</file>
+									<file>${target}.target</file>
 									<type>target</type>
-									<classifier>helios-scala-releases-29</classifier>
+									<classifier>${target}</classifier>
 								</artifact>
 							</artifacts>
 						</configuration>
@@ -43,5 +43,20 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<profiles>
+		<profile>
+			<id>helios</id>
+			<properties>
+				<target>helios-scala-releases-29</target>
+			</properties>
+		</profile>
+		<profile>
+			<id>juno</id>
+			<properties>
+				<target>juno-scala-nightly-29</target>
+			</properties>
+		</profile>
+	</profiles>
 
 </project>

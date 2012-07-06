@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="juno-scala-nightly-29" sequenceNumber="14">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.scala-ide.sdt.feature.feature.group" version="2.1.0.nightly-2_09-201207060358-4166ebf"/>
+<unit id="org.scala-ide.sdt.dev.feature.feature.group" version="2.1.0.nightly-2_09-201207060358-4166ebf"/>
+<repository location="http://scala-ide.dreamhosters.com/nightly-update-juno-master-29x/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.pde.feature.group" version="3.8.0.v20120525-1249-7c7vFitFFt6Zr5a12MM4IKMFZ"/>
+<repository location="http://download.eclipse.org/releases/juno/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.m2e.feature.feature.group" version="1.1.0.20120530-0009"/>
+<repository location="http://download.eclipse.org/releases/juno/"/>
+</location>
+</locations>
+</target>

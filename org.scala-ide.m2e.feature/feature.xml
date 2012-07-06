@@ -2,7 +2,7 @@
 <feature
       id="org.scala-ide.m2e.feature"
       label="Maven Integration for Scala IDE"
-      version="0.1.0.qualifier"
+      version="0.1.1.qualifier"
       provider-name="Dtornkaew Software, LLC.">
 
    <description url="http://github.com/llinder/m2e-scala/">
@@ -10,7 +10,7 @@
    </description>
 
    <url>
-      <update label="scala-m2e" url="http://scala-ide-m2e/update-site"/>
+      <update label="scala-m2e" url="http://scala-ide-m2e/juno/update-site"/>
    </url>
 
    <requires>
@@ -21,8 +21,8 @@
       <import plugin="org.eclipse.m2e.maven.runtime"/>
       <import plugin="org.eclipse.m2e.jdt"/>
       <import plugin="org.eclipse.jdt.launching"/>
-      <import plugin="org.scala-ide.scala.library" />
-      <import plugin="org.scala-ide.sdt.core" />
+      <import plugin="org.scala-ide.scala.library"/>
+      <import plugin="org.scala-ide.sdt.core"/>
       <import plugin="org.slf4j.api"/>
    </requires>
 

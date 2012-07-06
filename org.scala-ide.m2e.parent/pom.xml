@@ -10,7 +10,7 @@
 
 	<groupId>org.scala-ide.m2e</groupId>
 	<artifactId>org.scala-ide.m2e.parent</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.1.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Scala IDE m2e Integration (parent)</name>
@@ -94,7 +94,7 @@
 							<groupId>org.scala-ide.m2e</groupId>
 							<artifactId>org.scala-ide.m2e.tp</artifactId>
 							<version>${project.version}</version>
-							<classifier>helios-scala-releases-29</classifier>
+							<classifier>juno-scala-nightly-29</classifier>
 						</artifact>
 					</target>
 				</configuration>
