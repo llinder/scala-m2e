@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
 
-<target name="juno-scala-nightly-29" sequenceNumber="18">
+<target name="juno-scala-210m2" sequenceNumber="24">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.pde.feature.group" version="3.8.0.v20120525-1249-7c7vFitFFt6Zr5a12MM4IKMFZ"/>
-<unit id="org.eclipse.m2e.feature.feature.group" version="1.1.0.20120530-0009"/>
+<unit id="org.eclipse.pde.feature.group" version="3.8.1.v20120814-104528-7c7vFixFFt6Zr5aC6KM6LGWSd"/>
+<unit id="org.eclipse.m2e.feature.feature.group" version="1.2.0.20120903-1050"/>
 <repository location="http://download.eclipse.org/releases/juno/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.scala-ide.sdt.feature.feature.group" version="2.1.0.m2-2_09-201209130939-63e4f61"/>
-<repository location="http://download.scala-ide.org/releases-juno-29/milestone/site"/>
+<unit id="org.scala-ide.sdt.feature.feature.group" version="2.1.0.m2-2_10-201211070957-2563545"/>
+<repository location="http://download.scala-ide.org/sdk/e38/scala210/dev/site/"/>
 </location>
 </locations>
 </target>

@@ -52,9 +52,15 @@
 			</properties>
 		</profile>
 		<profile>
+			<id>indigo</id>
+			<properties>
+				<target>indigo-scala-210m2</target>
+			</properties>
+		</profile>
+		<profile>
 			<id>juno</id>
 			<properties>
-				<target>juno-scala-nightly-29</target>
+				<target>juno-scala-210m2</target>
 			</properties>
 		</profile>
 	</profiles>
