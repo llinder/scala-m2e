@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?>
-
-<target name="juno-scala-210m2" sequenceNumber="24">
+<?pde version="3.8"?><target name="juno-scala-210m3" sequenceNumber="27">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.pde.feature.group" version="3.8.1.v20120814-104528-7c7vFixFFt6Zr5aC6KM6LGWSd"/>
 <unit id="org.eclipse.m2e.feature.feature.group" version="1.2.0.20120903-1050"/>
+<unit id="org.eclipse.pde.feature.group" version="3.8.1.v20120814-104528-7c7vFixFFt6Zr5aC6KM6LGWSd"/>
 <repository location="http://download.eclipse.org/releases/juno/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.scala-ide.sdt.feature.feature.group" version="2.1.0.m2-2_10-201211070957-2563545"/>
+<unit id="org.scala-ide.sdt.feature.feature.group" version="2.1.0.m3-2_10-201212191037-79b3311"/>
 <repository location="http://download.scala-ide.org/sdk/e38/scala210/dev/site/"/>
 </location>
 </locations>

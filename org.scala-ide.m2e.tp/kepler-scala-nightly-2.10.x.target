@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="kepler-scala-nightly-2.10.x" sequenceNumber="23">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.scala-ide.sdt.feature.feature.group" version="2.1.0.nightly-2_10-201212270418-24d4d23"/>
+<repository location="http://download.scala-ide.org/nightly-update-juno-master-2.10.x"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.m2e.logback.feature.feature.group" version="1.3.0.20121216-1819"/>
+<unit id="org.eclipse.jdt.feature.group" version="3.9.0.v20121210-132935-8-8tFyYFNOfwKDedebWWejRS5834"/>
+<unit id="org.eclipse.m2e.feature.feature.group" version="1.3.0.20121216-1819"/>
+<repository location="http://download.eclipse.org/releases/kepler/"/>
+</location>
+</locations>
+</target>

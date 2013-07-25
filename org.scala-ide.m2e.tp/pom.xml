@@ -60,7 +60,13 @@
 		<profile>
 			<id>juno</id>
 			<properties>
-				<target>juno-scala-210m2</target>
+				<target>juno-scala-210m3</target>
+			</properties>
+		</profile>
+		<profile>
+			<id>kepler</id>
+			<properties>
+				<target>kepler-scala-nightly-2.10.x</target>
 			</properties>
 		</profile>
 	</profiles>
